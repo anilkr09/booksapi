@@ -27,7 +27,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["localhost","booksapix.herokuapp.com/"]
 
-
+from django.core.management.commands.runserver import Command as runserver
+runserver.default_port = "8080"
 # Application definition
 
 INSTALLED_APPS = [
