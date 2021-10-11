@@ -1,5 +1,5 @@
 # booksapi
-Django rest api app for book database
+Rest apis for book database
 
 
 
