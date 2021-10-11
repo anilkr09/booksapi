@@ -13,6 +13,11 @@ Django rest api app for book database
 
  
  
+ 
+ 
+ 
+ 
+ 
 2. POST /api/v1/books
    Create a book in database with provided details
     All of following values need to be specified --
@@ -23,6 +28,11 @@ Django rest api app for book database
      number_of_pages
      publisher
      release_date
+     
+     
+     
+     
+     
      
      
      
@@ -54,8 +64,16 @@ Django rest api app for book database
    
  
  
+ 
+ 
+ 
+ 
+ 
 4. POST  /api/v1/books/:id/delete
   to delete a book with provided id
+  
+  
+  
   
   
  
@@ -70,6 +88,10 @@ Django rest api app for book database
      number_of_pages
      publisher
      release_date
+  
+  
+  
+  
   
  
  6. GET   /api/v1/books/:id
