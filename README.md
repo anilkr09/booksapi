@@ -21,12 +21,12 @@ Rest apis for book database
 2. POST       /api/v1/books
    Create a book in database with provided details
     All of following values need to be specified --
-     name
-     isbn
-     authors
-     country
-     number_of_pages
-     publisher
+     name,
+     isbn,
+     authors,
+     country,
+     number_of_pages,
+     publisher,
      release_date
      
      
