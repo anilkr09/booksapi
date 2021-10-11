@@ -7,7 +7,7 @@ Django rest api app for book database
 ###  These are the different api endpoints provided by app  ###
 
 
-1.GET /api/external-books/?name=book_name
+1.GET     /api/external-books/?name=book_name
    JSON response with book details from iceandfire api
   Ex : /api/external-books/?name=A Game of Thrones
 
@@ -18,7 +18,7 @@ Django rest api app for book database
  
  
  
-2. POST /api/v1/books
+2. POST      /api/v1/books
    Create a book in database with provided details
     All of following values need to be specified --
      name
@@ -36,7 +36,7 @@ Django rest api app for book database
      
      
      
-3.  GET  /api/v1/books'
+3.  GET     /api/v1/books'
     Return information of all the books in database
   
     query parameters --- name,country,publisher,release_date
@@ -69,7 +69,7 @@ Django rest api app for book database
  
  
  
-4. POST  /api/v1/books/:id/delete
+4. POST        /api/v1/books/:id/delete
   to delete a book with provided id
   
   
@@ -77,7 +77,7 @@ Django rest api app for book database
   
   
  
- 5. POST   /api/v1/books/:id/update
+ 5. POST        /api/v1/books/:id/update
  
   to update a book infomation with specific id
   can be accessed with any of following data values
@@ -94,7 +94,7 @@ Django rest api app for book database
   
   
  
- 6. GET   /api/v1/books/:id
+ 6. GET        /api/v1/books/:id
  
   to get a book information  with specific id
  
