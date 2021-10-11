@@ -18,7 +18,7 @@ Django rest api app for book database
  
  
  
-2. POST      /api/v1/books
+2. POST       /api/v1/books
    Create a book in database with provided details
     All of following values need to be specified --
      name
